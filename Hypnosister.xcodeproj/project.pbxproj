@@ -19,6 +19,7 @@
 		D897C80A1957E290000CA406 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D897C7F21957E290000CA406 /* UIKit.framework */; };
 		D897C8121957E290000CA406 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D897C8101957E290000CA406 /* InfoPlist.strings */; };
 		D897C8141957E290000CA406 /* HypnosisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D897C8131957E290000CA406 /* HypnosisterTests.m */; };
+		D897C81F1957E389000CA406 /* TLHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = D897C81E1957E389000CA406 /* TLHypnosisView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		D897C80F1957E290000CA406 /* HypnosisterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HypnosisterTests-Info.plist"; sourceTree = "<group>"; };
 		D897C8111957E290000CA406 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D897C8131957E290000CA406 /* HypnosisterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnosisterTests.m; sourceTree = "<group>"; };
+		D897C81D1957E389000CA406 /* TLHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLHypnosisView.h; sourceTree = "<group>"; };
+		D897C81E1957E389000CA406 /* TLHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLHypnosisView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				D897C7FE1957E290000CA406 /* TLAppDelegate.m */,
 				D897C8001957E290000CA406 /* Images.xcassets */,
 				D897C7F51957E290000CA406 /* Supporting Files */,
+				D897C81D1957E389000CA406 /* TLHypnosisView.h */,
+				D897C81E1957E389000CA406 /* TLHypnosisView.m */,
 			);
 			path = Hypnosister;
 			sourceTree = "<group>";
@@ -240,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D897C81F1957E389000CA406 /* TLHypnosisView.m in Sources */,
 				D897C7FF1957E290000CA406 /* TLAppDelegate.m in Sources */,
 				D897C7FB1957E290000CA406 /* main.m in Sources */,
 			);
